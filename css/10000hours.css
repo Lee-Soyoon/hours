@@ -40,7 +40,6 @@
 }
 html,
 body {
-  width: 100%;
   height: 100%;
 }
 
@@ -50,15 +49,7 @@ body {
 
   color: #fff;
 }
-#contens {
-  display: flex;
-  justify-content: center;
-}
 .wrapper {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
   margin-top: 50px;
 }
 /* 제목 이미지 */
@@ -80,7 +71,6 @@ body {
 }
 .title_img img {
   width: 100%;
-  height: auto;
 }
 /* 1만 시간의 법칙 설명 */
 .intro {
@@ -143,8 +133,6 @@ body {
 
 /* 버튼 공통 스타일 */
 button {
-  display: flex;
-  align-items: center;
   font-family: "GmarketSansBold";
   font-size: 20px;
   color: #5b2386;
