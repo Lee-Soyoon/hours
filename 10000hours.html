@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/10000hours.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -13,7 +12,7 @@
     <section id="contents">
         <div class="wrapper">
             <div class="title">
-                <img src="/img/clock.png" alt="background_logo" class="clock_img">
+                <img class="clock_img" src="img/clock.png" alt="background">
                 <div class="title_img">
                     <img src="/img/title.png" alt="1만 시간의 법칙">
                 </div>
@@ -32,18 +31,18 @@
             <div class="inputs">
                 <div class="field">
                     <p>나는</p>
-                    <input type="text" class="field_value" placeholder="예) 프로그래밍">
+                    <input type="text" id="field_value" placeholder="예) 프로그래밍">
                     <p>전문가가 될 것이다.</p>
                 </div>
                 <div class="time">
                     <p>그래서 앞으로 매일 하루에</p>
                     <div>
-                        <input type="text" class="time_value" placeholder="예) 5">
+                        <input type="text" id="time_value" placeholder="예) 5">
                         <p>시간씩 훈련할 것이다.</p>
                     </div>
                 </div>
             </div>
-            <div class="starts">
+            <div class="start">
                 <div class="btn_wrap">
                     <button class="start_btn">나는 며칠동안 훈련을 해야 1만 시간이 될까?</button>
                     <div class="click_img">
@@ -51,7 +50,7 @@
                     </div>
                 </div>
             </div>
-            <div class="result_loading"> <!-- 버튼을 눌렀을 때 시계모양 로딩 처음부터 나오면 안됨-->
+            <div class="result_loading"> 
                 <div class="img_wrap">
                     <img src="/img/loading.png" alt="로딩중">
                 </div>

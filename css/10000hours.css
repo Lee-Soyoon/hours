@@ -155,15 +155,15 @@ button {
   cursor: pointer;
   word-break: keep-all;
 }
-.starts {
+.start {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
 }
-.starts .btn_wrap {
+.start .btn_wrap {
   position: relative;
 }
-.starts .click_img {
+.start .click_img {
   position: absolute;
   right: -75px;
   bottom: -25px;
